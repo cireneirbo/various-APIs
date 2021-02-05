@@ -9,18 +9,16 @@ export class ApiOne extends Component {
         return (
             <div className="App">
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                New page here.
-                </p>
-                <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-                >
-                Learn React
-                </a>
+                
+                
+                    "employees":[
+                    "firstName":"John", "lastName":"Doe",
+                    "firstName":"Anna", "lastName":"Smith",
+                    "firstName":"Peter", "lastName":"Jones"
+                    ]
+                
+                
+                
             </header>
             </div>
         );
